@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>test</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="jquery.js"></script>
+     <script src="j.js"></script>
+    <script>
+  window.onload=function(){
+     
+     $("#tbtn").click(function(){
+     $("#log").jstree("ddd").find("input").prop("checked",true);  
+      console.log($.fn.selector);
+       //test
+     })
+     
+  }
+  </script>
+
+  
+</head>
+<body>
+<div id="log"><input type="radio" /></div>
+<button id="tbtn">testBtn</button>
+
+</body>
+</html>
